@@ -1,0 +1,61 @@
+AJAX: 
+(Asynchronous JavaScript + XML) Szabványalapú megjelenítő réteg (XHTML és CSS), dinamikus felhasználói felület, aszinkron adatátvitel a böngésző és szerver között az XMLHttpRequest objektummal, adatcsere XML és XSLT alapokon, intenzív JavaScript használat.
+
+DOM: 
+A dokumentumobjektum-modell egy API a HTML és az XML dokumentumokhoz. A dokumentum szerkezetét modellezi és lehetővé teszi annak tartalmi és vizuális változtatását. Lényegében összeköttetést képez a weblapok és a script vagy prog­ramo­zási nyelvek között.
+
+domain : 
+{magyarul: címtartomány} Az Internethez csatlakozó gépek hierarchikus címrendszerének valamelyik szintje. A legfelső szintű ~ gyakran az országot jelzi, az alatta levő pedig a gép tulajdonosát stb.
+
+backend:
+A back-end réteg feladata a front-end réteg felől érkező adatok feldolgozása, ill. a keletkezett eredmény a front-end számára történő visszajuttatása.
+
+fronend:
+Egy adott rendszer legfelsőbb, a felhasználóval vagy a csatlakoztatott további rendszerrekkel a kapcsolatot tartó rétege.
+A front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása a felhasználó vagy a csatlakoztatott rendszer felől.
+
+Magasabb rendű függvények
+A magasabb rendű függvények (higher order function) olyan függvények, melyek más függvényekkel dolgoznak, azaz vagy paraméterként várják őket, vagy függvényeket adnak vissza.
+
+Closure (lexikai zárvány)
+A függvények lehetővé teszik az úgynevezett lexikai zárvány használatát. A zárvány lényege, hogy hozzáférünk a függvényen kívüli változókhoz azután is, hogy a függvényen kívüli környezet már lefutott.
+
+szinkron:
+sorrendben való lefutást jelent
+
+aszinkron:
+pl az AJAX hívások, tehát nem akad meg aprogram csak azért mert volt egy ajax hívás, amire a szerverválasz később, akár a program teljes lefutása után érkezik meg
+
+A REST (Representational State Transfer) 
+egy szoftverarchitektúra típus, elosztott kapcsolat (loose coupling), nagy, internet alapú rendszerek számára, amilyen például a világháló. Egy REST típusú architektúra kliensekből és szerverekből áll. A kliensek kéréseket indítanak a szerverek felé; a szerverek kéréseket dolgoznak fel és a megfelelő választ küldik vissza.
+
+Web API fajtái
+A programmableweb.com adatbázisában a REST, SOAP, a JavaScript és az XML-RPC protokollok a legelterjedtebbek. Hiresebb API protocollok pl REST.
+
+JSON
+A JSON (JavaScript Object Notation) egy kis méretű, szöveg alapú szabvány, ember által olvasható adatcserére. A JavaScript szkriptnyelvből alakult ki egyszerű adatstruktúrák és asszociatív tömbök reprezentálására (a JSON-ban objektum a nevük). A JavaScripttel való kapcsolata ellenére nyelvfüggetlen. A JSON-t legtöbbször egy szerver és egy kliens számítógép közti adatátvitelre használják (legtöbbször AJAX technológiával), az XML egyik alternatívájaként. Általánosságban strukturált adatok tárolására, továbbítására szolgál.
+
+A full stack szoftverfejlesztő:
+nem specifikusan képzi magát az egyes programnyelvekre, fejlesztési területekre, hanem komplexen átlátja a programozás minden szeletét a háttérfolyamatoktól egészen a felhasználó előtt megjelenő felületekig. Olyan rendszerszemlélettel rendelkezik, mely segítségével bármelyik területen tovább tudja képezni magát.
+
+A HTTP
+(HyperText Transfer Protocol) egy információátviteli protokoll elosztott, kollaboratív, hipermédiás, információs rendszerekhez. [Address][Header][Body]-> nem mara nyoma a kommunikációnak mint a TCP protocolloknál.
+
+Az URL
+vagy más néven webcím (mely a Uniform Resource Locator [egységes erőforrás-hely] rövidítése), az interneten megtalálható bizonyos erőforrások (például szövegek, képek) szabványosított címe. 
+--->https://hu.wikipedia.org:443/wiki
+Ennek részei:
+-A https a használandó protokoll. A protokoll neve után kettőspont (:) írandó.
+-A hu.wikipedia.org a célgép tartományneve. Ez elé két perjel (//) írandó.
+-A 443 a célgép azon hálózati portszáma, amin kérésünket várja; ez elé kettőspont (:) írandó. Ezt a részt gyakran teljesen elhagyhatjuk, például esetünkben a HTTPS protokoll alapértelmezett portszáma a 443.
+-A /wiki a kért elérési út a célgépen. Ez a rész mindig a perjellel (/) kezdődik.
+
+A pszeudokód
+ az algoritmusok és általában az eljárások leírására használt olyan mesterséges formális nyelv, mely változókból és néhány állandó jelentésű szóból („foglalt” konstansok) áll, és (szándékosan) hasonlít a számítógépes programozási nyelvekre.
+
+Az XMLHttpRequest (XHR) 
+egy API, ami böngészőkön belül elérhető olyan interpreteres nyelvben, mint például a JavaScript. Arra használható, hogy HTTP vagy HTTPS protokollon keresztül direkt küldjünk kéréseket egy webszerverhez, aztán majd annak a válaszát közvetlenül visszakapjuk például a kérő szkriptben. A válasz JSON-ként érkezik, (ennek elődje volt az XML, melyet már kevésbé használnak).
+
+Framework
+Önmagában közvetlenül nem használható, de bizonyos tipikus feladatok elvégzését nagy mértékben segítő, egységes módon megszerkesztett "építőkockákat" (komponenseket) tartalmazó halmaz.
+A keretrendszerek lényege, hogy a különböző alkalmazásokban leggyakrabban használt elemeket egyetlen helyre gyűjtik össze, és készen kínálják a fejlesztők valamint a programok számára, amelyek így rengeteg elvégzendő munkától mentesülnek.
